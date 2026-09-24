@@ -1,4 +1,3 @@
-// функція приводить номер до 10 цифр, що починаються з 0
 function cleanPhone(phone) {
   let digits = "";
 
