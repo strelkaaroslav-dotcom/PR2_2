@@ -33,7 +33,7 @@ function formattedPhone(phone) {
   return "+38 (0" + code + ") " + part1 + "-" + part2 + "-" + part3;
 }
 
-console.log(formattedPhone("+380664567890")); // +38 (066) 456-78-90
+console.log(formattedPhone("+380664567890"));
 
 function showResult() {
   const phone = document.getElementById("phoneInput").value;
